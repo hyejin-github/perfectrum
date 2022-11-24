@@ -1,0 +1,369 @@
+.fs-10 {
+  font-size: (10px);
+}
+.fs-11 {
+  font-size: (11px);
+  line-height: (16px);
+}
+.fs-12 {
+  font-size: (12px);
+  line-height: (17px);
+}
+.fs-13 {
+  font-size: (13px);
+  line-height: (19px);
+}
+.fs-14 {
+  font-size: (14px);
+  line-height: (20px);
+}
+.fs-15 {
+  font-size: (15px);
+  line-height: (22px);
+}
+.fs-16 {
+  font-size: (16px);
+  line-height: (23px);
+}
+.fs-18 {
+  font-size: (18px);
+  line-height: (26px);
+}
+.fs-20 {
+  font-size: (20px);
+  line-height: (29px);
+}
+.fs-22 {
+  font-size: (22px);
+  line-height: (32px);
+}
+.fs-24 {
+  font-size: (24px);
+  line-height: (35px);
+}
+.fs-26 {
+  font-size: (26px);
+  line-height: (38px);
+}
+.fs-28 {
+  font-size: (28px);
+  line-height: (41px);
+}
+.fs-30 {
+  font-size: (30px);
+  line-height: (43px);
+}
+.fs-32 {
+  font-size: (32px);
+  line-height: (46px);
+}
+.fs-36 {
+  font-size: (36px);
+  line-height: (52px);
+}
+.fs-40 {
+  font-size: (40px);
+  line-height: (58px);
+}
+.fs-52 {
+  font-size: (52px);
+  line-height: (75px);
+}
+.fs-60 {
+  font-size: (60px);
+  line-height: (87px);
+}
+/* 폰트 타이포 */
+
+.kkomi {
+  font-family: "KNPSKkomi";
+}
+
+.loveYa {
+  font-family: "LoveYaLikeASister";
+}
+
+.loveYaSolid {
+  font-family: "LoveYaLikeASisterSolid";
+}
+
+.kyobo {
+  font-family: "KyoboHandwriting2020A";
+}
+
+.notoMid {
+  font-family: "NotoSansMedium";
+}
+
+.notoBold {
+  font-family: "NotoSansBold";
+}
+
+.notoReg {
+  font-family: "NotoSansRegular";
+}
+
+.notoBlack {
+  font-family: "NotoSansBlack";
+}
+
+.notoThin {
+  font-family: "NotoSansThin";
+}
+
+.notoLight {
+  font-family: "NotoSansLight";
+}
+
+.roThin {
+  font-family: "RobotoThin";
+}
+
+.roLight {
+  font-family: "RobotoLight";
+}
+
+.roReg {
+  font-family: "RobotoRegular";
+}
+
+.roMid {
+  font-family: "RobotoMedium";
+}
+
+.roBold {
+  font-family: "RobotoBold";
+}
+
+@media screen and (max-width: $DESKTOP-VW) {
+  .fs-10 {
+    font-size: vw(10px);
+  }
+  .fs-11 {
+    font-size: vw(11px);
+    line-height: vw(16px);
+  }
+  .fs-12 {
+    font-size: vw(12px);
+    line-height: vw(17px);
+  }
+  .fs-13 {
+    font-size: vw(13px);
+    line-height: vw(19px);
+  }
+  .fs-14 {
+    font-size: vw(14px);
+    line-height: vw(20px);
+  }
+  .fs-15 {
+    font-size: vw(15px);
+    line-height: vw(22px);
+  }
+  .fs-16 {
+    font-size: vw(16px);
+    line-height: vw(23px);
+  }
+  .fs-18 {
+    font-size: vw(18px);
+    line-height: vw(26px);
+  }
+  .fs-20 {
+    font-size: vw(20px);
+    line-height: vw(29px);
+  }
+  .fs-22 {
+    font-size: vw(22px);
+    line-height: vw(32px);
+  }
+  .fs-24 {
+    font-size: vw(24px);
+    line-height: vw(35px);
+  }
+  .fs-26 {
+    font-size: vw(26px);
+    line-height: vw(38px);
+  }
+  .fs-28 {
+    font-size: vw(28px);
+    line-height: vw(41px);
+  }
+  .fs-30 {
+    font-size: vw(30px);
+    line-height: vw(43px);
+  }
+  .fs-32 {
+    font-size: vw(32px);
+    line-height: vw(46px);
+  }
+  .fs-36 {
+    font-size: vw(36px);
+    line-height: vw(52px);
+  }
+  .fs-40 {
+    font-size: vw(40px);
+    line-height: vw(58px);
+  }
+  .fs-52 {
+    font-size: vw(52px);
+    line-height: vw(75px);
+  }
+  .fs-60 {
+    font-size: vw(60px);
+    line-height: vw(87px);
+  }
+}
+
+@media screen and (max-width: $TABLET-VW) {
+  .fs-10 {
+    font-size: vw-t(10px);
+  }
+  .fs-11 {
+    font-size: vw-t(11px);
+    line-height: vw-t(16px);
+  }
+  .fs-12 {
+    font-size: vw-t(12px);
+    line-height: vw-t(17px);
+  }
+  .fs-13 {
+    font-size: vw-t(13px);
+    line-height: vw-t(19px);
+  }
+  .fs-14 {
+    font-size: vw-t(14px);
+    line-height: vw-t(20px);
+  }
+  .fs-15 {
+    font-size: vw-t(15px);
+    line-height: vw-t(22px);
+  }
+  .fs-16 {
+    font-size: vw-t(16px);
+    line-height: vw-t(23px);
+  }
+  .fs-18 {
+    font-size: vw-t(18px);
+    line-height: vw-t(26px);
+  }
+  .fs-20 {
+    font-size: vw-t(20px);
+    line-height: vw-t(29px);
+  }
+  .fs-22 {
+    font-size: vw-t(22px);
+    line-height: vw-t(32px);
+  }
+  .fs-24 {
+    font-size: vw-t(24px);
+    line-height: vw-t(35px);
+  }
+  .fs-26 {
+    font-size: vw-t(26px);
+    line-height: vw-t(38px);
+  }
+  .fs-28 {
+    font-size: vw-t(28px);
+    line-height: vw-t(41px);
+  }
+  .fs-30 {
+    font-size: vw-t(30px);
+    line-height: vw-t(43px);
+  }
+  .fs-32 {
+    font-size: vw-t(32px);
+    line-height: vw-t(46px);
+  }
+  .fs-36 {
+    font-size: vw-t(36px);
+    line-height: vw-t(52px);
+  }
+  .fs-40 {
+    font-size: vw-t(40px);
+    line-height: vw-t(58px);
+  }
+  .fs-52 {
+    font-size: vw-t(52px);
+    line-height: vw-t(75px);
+  }
+  .fs-60 {
+    font-size: vw-t(60px);
+    line-height: vw-t(87px);
+  }
+}
+@media screen and (max-width: $PHONE-VW) {
+  .fs-10 {
+    font-size: vw-p(10px);
+  }
+  .fs-11 {
+    font-size: vw-p(11px);
+    line-height: vw-p(16px);
+  }
+  .fs-12 {
+    font-size: vw-p(12px);
+    line-height: vw-p(17px);
+  }
+  .fs-13 {
+    font-size: vw-p(13px);
+    line-height: vw-p(19px);
+  }
+  .fs-14 {
+    font-size: vw-p(14px);
+    line-height: vw-p(20px);
+  }
+  .fs-15 {
+    font-size: vw-p(15px);
+    line-height: vw-p(22px);
+  }
+  .fs-16 {
+    font-size: vw-p(16px);
+    line-height: vw-p(23px);
+  }
+  .fs-18 {
+    font-size: vw-p(18px);
+    line-height: vw-p(26px);
+  }
+  .fs-20 {
+    font-size: vw-p(20px);
+    line-height: vw-p(29px);
+  }
+  .fs-22 {
+    font-size: vw-p(22px);
+    line-height: vw-p(32px);
+  }
+  .fs-24 {
+    font-size: vw-p(24px);
+    line-height: vw-p(35px);
+  }
+  .fs-26 {
+    font-size: vw-p(26px);
+    line-height: vw-p(38px);
+  }
+  .fs-28 {
+    font-size: vw-p(28px);
+    line-height: vw-p(41px);
+  }
+  .fs-30 {
+    font-size: vw-p(30px);
+    line-height: vw-p(43px);
+  }
+  .fs-32 {
+    font-size: vw-p(32px);
+    line-height: vw-p(46px);
+  }
+  .fs-36 {
+    font-size: vw-p(36px);
+    line-height: vw-p(52px);
+  }
+  .fs-40 {
+    font-size: vw-p(40px);
+    line-height: vw-p(58px);
+  }
+  .fs-52 {
+    font-size: vw-p(52px);
+    line-height: vw-p(75px);
+  }
+  .fs-60 {
+    font-size: vw-p(60px);
+    line-height: vw-p(87px);
+  }
+}

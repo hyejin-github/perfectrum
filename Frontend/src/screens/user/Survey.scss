@@ -1,0 +1,27 @@
+.surveytitle {
+  width: 100%;
+ 
+  &_main {
+    margin-top: 100px;
+  }
+  &_window {
+    border-radius: 2%;
+    width: 600px;
+    height: 750px;
+    margin-bottom: 50px;
+    background-color: $GRAY-40;;
+  }
+  &_btn {
+    width: (300px);
+    height: (52px);
+    color: $WHITE;
+    background-color: $GRAY-40;
+    border-radius: (6px);
+    margin: 40px;
+  }
+  &_btn:hover {
+    color: $WHITE;
+    background-color: $GRAY-67;
+    box-shadow: 0 0 (5px) $BLACK;
+  }
+}

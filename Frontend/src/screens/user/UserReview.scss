@@ -1,0 +1,321 @@
+.container {
+  justify-content: center;
+}
+.userReview {
+  width: (600px);
+}
+.divide1 {
+  width: 100%;
+  height: (1px);
+  background-color: $GRAY-67;
+}
+.divide2 {
+  width: 100%;
+  height: (1px);
+  background-color: $GRAY-DB;
+}
+.userReview1 {
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  // &_title {
+  //   color: $GRAY-40;
+  //   margin: (100px) 0 (40px);
+  // }
+  &_editbutton {
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: 30px;
+    bottom: 40px;
+    left: 60px;
+    position: relative;
+  }
+  &_gear {
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: 20px;
+ 
+    position: relative;
+  }
+  &_profileimg {
+    margin: (100px) 0 (24px);
+    height: (100px);
+    width: (100px);
+    border-radius: 50%;
+  }
+  &_nickname {
+    color: $GRAY-40;
+    bottom: 30px;
+    position: relative;
+  }
+}
+.userReview2 {
+  color: $GRAY-40;
+  width: (520px);
+  margin: 0 (40px) 0 (40px);
+  // align-items: center;
+  flex-direction: column;
+  &_title {
+    margin: (40px) 0 (20px) 0;
+  }
+  &_contents {
+    margin: (24px) 0 (24px) 0;
+    &_count,
+    &_rating {
+      margin-right: (20px);
+      &_title {
+        margin-right: (8px);
+      }
+    }
+    &_new {
+      margin-right: (20px);
+    }
+  }
+}
+.userReview3 {
+  width: (520px);
+  margin: 0 (40px) 0 (40px);
+  // background-color: bisque;
+}
+// @media screen and (max-width: $DESKTOP-VW) {
+//   .userReview {
+//     width: vw(350px);
+//   }
+//   .divide {
+//     width: 100%;
+//     height: vw(1px);
+//     background-color: $GRAY-F3;
+//     margin-top: vw(38px);
+//   }
+//   .userReview1 {
+//     width: 100%;
+//     align-items: center;
+//     flex-direction: column;
+//     &_title {
+//       color: $GRAY-40;
+//       margin: vw(100px) 0 vw(40px);
+//     }
+//     img {
+//       height: vw(100px);
+//       width: vw(100px);
+//       border-radius: 70%;
+//     }
+//     &_btn {
+//       color: $GRAY-67;
+//       margin-top: vw(24px);
+//       text-decoration: underline;
+//     }
+//   }
+//   .userReview2,
+//   .userReview3,
+//   .userReview4,
+//   .userReview5 {
+//     width: vw(300px);
+//     margin: 0 vw(25px) 0 vw(25px);
+//     align-items: center;
+//     flex-direction: column;
+//     &_title {
+//       color: $GRAY-67;
+//       margin: vw(12px) 0 vw(12px) 0;
+//     }
+//   }
+//   .userReview2 {
+//     input {
+//       width: vw(300px);
+//       height: vw(44px);
+//       border-radius: vw(6px);
+//       padding-left: vw(16px);
+//       border: vw(1px) solid $GRAY-67;
+//       color: $GRAY-40;
+//     }
+//     input:focus {
+//       border: vw(1px) solid $BLACK;
+//       box-shadow: 0 0 vw(5px) $GRAY-DB;
+//     }
+//   }
+//   .userReview6 {
+//     width: 100%;
+//     align-items: center;
+//     flex-direction: column;
+//     &_btn {
+//       width: vw(300px);
+//       height: vw(52px);
+//       color: $WHITE;
+//       background-color: $GRAY-DB;
+//       border-radius: vw(6px);
+//       margin: vw(36px) 0 vw(5px);
+//     }
+//     &_btn:hover {
+//       color: $WHITE;
+//       background-color: $MAIN;
+//       box-shadow: 0 0 vw(5px) $MAIN;
+//     }
+//     &_drop {
+//       margin-top: vw(12px);
+//       color: $GRAY-DB;
+//       text-decoration: underline;
+//     }
+//   }
+// }
+// @media screen and (max-width: $TABLET-VW) {
+//   .userReview {
+//     width: vw-t(350px);
+//   }
+//   .divide {
+//     width: 100%;
+//     height: vw-t(1px);
+//     background-color: $GRAY-F3;
+//     margin-top: vw-t(38px);
+//   }
+//   .userReview1 {
+//     width: 100%;
+//     align-items: center;
+//     flex-direction: column;
+//     &_title {
+//       color: $GRAY-40;
+//       margin: vw-t(100px) 0 vw-t(40px);
+//     }
+//     img {
+//       height: vw-t(100px);
+//       width: vw-t(100px);
+//       border-radius: 70%;
+//     }
+//     &_btn {
+//       color: $GRAY-67;
+//       margin-top: vw-t(24px);
+//       text-decoration: underline;
+//     }
+//   }
+//   .userReview2,
+//   .userReview3,
+//   .userReview4,
+//   .userReview5 {
+//     width: vw-t(300px);
+//     margin: 0 vw-t(25px) 0 vw-t(25px);
+//     align-items: center;
+//     flex-direction: column;
+//     &_title {
+//       color: $GRAY-67;
+//       margin: vw-t(12px) 0 vw-t(12px) 0;
+//     }
+//   }
+//   .userReview2 {
+//     input {
+//       width: vw-t(300px);
+//       height: vw-t(44px);
+//       border-radius: vw-t(6px);
+//       padding-left: vw-t(16px);
+//       border: vw-t(1px) solid $GRAY-67;
+//       color: $GRAY-40;
+//     }
+//     input:focus {
+//       border: vw-t(1px) solid $BLACK;
+//       box-shadow: 0 0 vw-t(5px) $GRAY-DB;
+//     }
+//   }
+//   .userReview6 {
+//     width: 100%;
+//     align-items: center;
+//     flex-direction: column;
+//     &_btn {
+//       width: vw-t(300px);
+//       height: vw-t(52px);
+//       color: $WHITE;
+//       background-color: $GRAY-DB;
+//       border-radius: vw-t(6px);
+//       margin: vw-t(36px) 0 vw-t(5px);
+//     }
+//     &_btn:hover {
+//       color: $WHITE;
+//       background-color: $MAIN;
+//       box-shadow: 0 0 vw-t(5px) $MAIN;
+//     }
+//     &_drop {
+//       margin-top: vw-t(12px);
+//       color: $GRAY-DB;
+//       text-decoration: underline;
+//     }
+//   }
+// }
+// @media screen and (max-width: $PHONE-VW) {
+//   .userReview {
+//     width: vw-p(350px);
+//   }
+//   .divide {
+//     width: 100%;
+//     height: vw-p(1px);
+//     background-color: $GRAY-F3;
+//     margin-top: vw-p(38px);
+//   }
+//   .userReview1 {
+//     width: 100%;
+//     align-items: center;
+//     flex-direction: column;
+//     &_title {
+//       color: $GRAY-40;
+//       margin: vw-p(100px) 0 vw-p(40px);
+//     }
+//     img {
+//       height: vw-p(100px);
+//       width: vw-p(100px);
+//       border-radius: 70%;
+//     }
+//     &_btn {
+//       color: $GRAY-67;
+//       margin-top: vw-p(24px);
+//       text-decoration: underline;
+//     }
+//   }
+//   .userReview2,
+//   .userReview3,
+//   .userReview4,
+//   .userReview5 {
+//     width: vw-p(300px);
+//     margin: 0 vw-p(25px) 0 vw-p(25px);
+//     align-items: center;
+//     flex-direction: column;
+//     &_title {
+//       color: $GRAY-67;
+//       margin: vw-p(12px) 0 vw-p(12px) 0;
+//     }
+//   }
+//   .userReview2 {
+//     input {
+//       width: vw-p(300px);
+//       height: vw-p(44px);
+//       border-radius: vw-p(6px);
+//       padding-left: vw-p(16px);
+//       border: vw-p(1px) solid $GRAY-67;
+//       color: $GRAY-40;
+//     }
+//     input:focus {
+//       border: vw-p(1px) solid $BLACK;
+//       box-shadow: 0 0 vw-p(5px) $GRAY-DB;
+//     }
+//   }
+//   .userReview6 {
+//     width: 100%;
+//     align-items: center;
+//     flex-direction: column;
+//     &_btn {
+//       width: vw-p(300px);
+//       height: vw-p(52px);
+//       color: $WHITE;
+//       background-color: $GRAY-DB;
+//       border-radius: vw-p(6px);
+//       margin: vw-p(36px) 0 vw-p(5px);
+//     }
+//     &_btn:hover {
+//       color: $WHITE;
+//       background-color: $MAIN;
+//       box-shadow: 0 0 vw-p(5px) $MAIN;
+//     }
+//     &_drop {
+//       margin-top: vw-p(12px);
+//       color: $GRAY-DB;
+//       text-decoration: underline;
+//     }
+//   }
+// }

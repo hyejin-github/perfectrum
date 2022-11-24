@@ -1,0 +1,119 @@
+.perfumeReview {
+  height: (124px);
+  margin: (20px) 0 (20px) 0;
+  &_profile {
+    flex-direction: column;
+    margin-right: (8px);
+    width: (120px);
+    justify-content: space-evenly;
+    &_img {
+      margin-left: (20px);
+      width: (80px);
+      height: (80px);
+      overflow: hidden;
+      border-radius: 70%;
+      margin-bottom: (4px);
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &_imginput {
+      display: none;
+    }
+    &_btn {
+      margin-left: (10px);
+      width: (80px);
+      height: (80px);
+      margin-bottom: (4px);
+    }
+    &_name {
+      width: (100px);
+      margin-left: (10px);
+      &_nickname {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+    &_fix {
+      width: (80px);
+      margin-left: (20px);
+      &_nickname {
+        width: 100%;
+      }
+    }
+  }
+  &_upload {
+    height: (124px);
+    width: (93px);
+    overflow: hidden;
+    border-radius: (8px);
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &_rating {
+    flex-direction: column;
+    width: (136px);
+    margin: 0 (12px) 0 (12px);
+    &_total {
+      margin-top: (18px);
+      height: (24px);
+      &_sub {
+        width: (26px);
+        margin-right: (10px);
+      }
+      &_ystar {
+        width: 16px;
+        margin-left: 2px;
+        margin-right: 2px;
+      }
+    }
+    &_long,
+    &_sil {
+      height: (24px);
+      margin-top: (8px);
+      &_sub {
+        width: (26px);
+        margin-right: (10px);
+      }
+      &_emo {
+        width: 16px;
+        margin-left: 2px;
+        margin-right: 2px;
+      }
+    }
+  }
+  &_info {
+    width: (368px);
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    &_contents {
+      width: (368px);
+    }
+    &_date {
+      margin-left: (268px);
+    }
+    &_input {
+      width: 100%;
+      height: (100px);
+      border: 1px solid $GRAY-ED;
+      &_board {
+        width: 100%;
+        height: (100px);
+        border: $WHITE;
+      }
+    }
+  }
+  &_btns {
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: (12px);
+  }
+}

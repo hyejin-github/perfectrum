@@ -1,0 +1,66 @@
+.infoReview {
+  margin: (40px) 0 (40px) 0;
+  &_frame {
+    width: (130px);
+    text-align: center;
+    height: (120px);
+    overflow: hidden;
+    border-radius: 15%;
+    &_img {
+      width: 90px;
+      object-fit: cover;
+    }
+  }
+  &__container {
+    width: 200px;
+  }
+  &_block {
+    margin-left: 30px;
+  }
+  &_sillage {
+    width: 15px;
+    margin-left: 2px;
+    margin-right: 2px;      
+  }
+  &_long {
+    width: 15px;
+    margin-left: 2px;
+    margin-right: 2px;    
+  }
+  &_ystar {
+    width: 15px;
+    margin-left: 2px;
+    margin-right: 2px;    
+  }
+  &_extra {
+    flex-direction: column;
+    color: $GRAY-40;
+    &_name {
+      // margin-top: (8px);
+    }
+    &_rating,
+    &_comment {
+      margin-top: (10px);
+    }
+    &_rating {
+      align-items: center;
+      &_star {
+        width: (100px);
+        height: (20px);
+        margin-right: (16px);
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    &_comment {
+      width: (412px);
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

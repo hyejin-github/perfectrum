@@ -1,0 +1,107 @@
+.container {
+  justify-content: center;
+}
+.infoedit {
+  width: (350px);
+}
+.divide {
+  width: 100%;
+  height: (1px);
+  background-color: $GRAY-F3;
+  margin-top: (38px);
+}
+.infoedit1 {
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+
+
+  &_imginput {
+    display: none;
+  }
+  &_title {
+    color: $GRAY-40;
+    margin: (100px) 0 (40px);
+  }
+  &_profileimg {
+    margin: 50px 40px;
+    height: (100px);
+    width: (100px);
+    border-radius: 50%;
+  }
+  &_btn {
+    color: $GRAY-67;
+    margin-top: (24px);
+    text-decoration: underline;
+  }
+}
+.infoedit2 {
+  width: (300px);
+  margin: (25px);
+  align-items: center;
+  flex-direction: column;
+  &_title {
+    color: $GRAY-67;
+    margin: (12px) 0 (12px) 0;
+  }
+  &_btn {
+    width: (300px);
+    height: (42px);
+    color: $WHITE;
+    background-color: $GRAY-DB;
+    border-radius: (6px);
+    margin: (18px) 0 (5px);
+  }
+  &_btn:hover {
+    color: $WHITE;
+    background-color: $GRAY-67;
+    box-shadow: 0 0 (5px) $BLACK;
+  }
+  input {
+    width: (300px);
+    height: (44px);
+    border-radius: (6px);
+    padding-left: (16px);
+    border: 1px solid $GRAY-67;
+    color: $GRAY-40;
+  }
+  input:focus {
+    border: 1px solid $BLACK;
+    box-shadow: 0 0 5px $GRAY-DB;
+  }
+}
+.infoedit3,
+.infoedit4,
+.infoedit5 {
+  width: (300px);
+  margin: (25px);
+  align-items: center;
+  flex-direction: column;
+  &_title {
+    color: $GRAY-67;
+    margin: (12px) 0 (12px) 0;
+  }
+}
+.infoedit6 {
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  &_btn {
+    width: (300px);
+    height: (52px);
+    color: $WHITE;
+    background-color: $GRAY-DB;
+    border-radius: (6px);
+    margin: (36px) 0 (5px);
+  }
+  &_btn:hover {
+    color: $WHITE;
+    background-color: $GRAY-67;
+    box-shadow: 0 0 (5px) $BLACK;
+  }
+  &_drop {
+    margin-top: (12px);
+    color: $GRAY-DB;
+    text-decoration: underline;
+  }
+}

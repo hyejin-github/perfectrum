@@ -1,0 +1,193 @@
+.sticky {
+  position: fixed;
+  bottom: (20px);
+  right: (20px);
+  z-index: (1);
+  &_menuBar {
+    z-index: (2);
+    height: (576px);
+    width: (300px);
+    flex-direction: column;
+    // border: 1px solid $BLACK;
+    background-color: #fffbf4;
+    border-radius: (20px);
+    padding: (12px);
+    box-shadow: (2px) (2px) (2px) (2px) $GRAY-DB;
+    &_title {
+      width: 100%;
+      justify-content: space-between;
+      height: (40px);
+      margin: (8px) 0 (24px) 0;
+      img {
+        margin-top: (4px);
+        height: (32px);
+      }
+    }
+    &_toBook {
+      width: (276px);
+      justify-content: center;
+      &_btn {
+        width: (210px);
+        height: (49px);
+        flex-direction: row;
+        border: 1px solid $BLACK;
+        border-radius: (12px);
+        &_des {
+          margin-left: (12px);
+        }
+      }
+    }
+    &_ad {
+      width: (240px);
+      margin: (32px) (18px) (8px) (18px);
+      flex-direction: column;
+      align-items: center;
+      &_img {
+        margin: (32px) 0 (12px) 0;
+        width: (210px);
+        height: (270px);
+        border-radius: (6px);
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        // box-shadow: (2px) (2px) (2px) (2px) $GRAY-E4;
+      }
+      &_name {
+        width: (240px);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+.book {
+  z-index: (3);
+  position: fixed;
+  bottom: 10%;
+  right: (30px);
+  width: (550px);
+  height: (730px);
+  padding: (12px);
+  // background-image: url(../../assets/images/icon/book.png);
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: cover;
+  background-color: #f8ece0;
+  border-radius: (20px);
+  box-shadow: (4px) $GRAY-DB;
+  // background-attachment: fixed;
+  &_title {
+    justify-content: space-between;
+    width: 100%;
+    // flex-direction: row;
+    margin-bottom: (32px);
+    &_tag {
+      width: (480px);
+      &_word {
+        margin-right: (12px);
+        margin-left: (108px);
+      }
+      &_word,
+      &_scent {
+        border-width: (3px) (4px) 0 (4px);
+        border-style: solid;
+        border-color: #65350f;
+        border-radius: (12px) (12px) 0 0;
+        &_btn {
+          color: #65350f;
+        }
+      }
+    }
+    &_btn {
+      margin-bottom: (8px);
+    }
+  }
+  &_content {
+    padding: (8px);
+    &_word,
+    &_scent {
+      flex-direction: row;
+      &_tags {
+        width: (96px);
+        flex-direction: column;
+        margin-right: (12px);
+        &_tag {
+          margin-top: (20px);
+          // box-shadow: (2px) (2px) #65350f;
+        }
+      }
+      &_contents {
+        flex-direction: column;
+        width: (396px);
+        height: (592px);
+        overflow-y: scroll;
+        &_box {
+          // flex-direction: row;
+          margin-top: (20px);
+          &_terms {
+            width: (96px);
+            margin-right: (8px);
+          }
+          &_mean {
+            width: (280px);
+          }
+        }
+      }
+      &_contents::-webkit-scrollbar {
+        width: (8px);
+        // background-color: #65350f;
+      }
+      &_contents::-webkit-scrollbar-thumb {
+        background-color: $GRAY-AD;
+        border-radius: (8px);
+        background-clip: padding-box;
+        border: (1px) solid transparent;
+      }
+      &_contents::-webkit-scrollbar-track {
+        background-color: $GRAY-DB;
+        border-radius: (8px);
+        box-shadow: inset 0 0 (4px) $WHITE;
+      }
+    }
+    &_word {
+      &_contents {
+        &_box {
+          flex-direction: row;
+        }
+      }
+    }
+    &_scent {
+      &_contents {
+        &_box {
+          flex-direction: column;
+          &_detail {
+            width: (372px);
+            flex-direction: row;
+            margin-bottom: (12px);
+            &_img {
+              width: (40px);
+              height: (40px);
+              overflow: hidden;
+              border-radius: (6px);
+              margin-top: (4px);
+              margin-right: (6px);
+              img {
+                // width: 100%;
+                // height: 100%;
+                object-fit: cover;
+              }
+            }
+            &_con {
+              width: (320px);
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+}

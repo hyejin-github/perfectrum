@@ -1,0 +1,126 @@
+.container {
+  justify-content: center;
+}
+.divide {
+  width: 100%;
+  height: (1px);
+  background-color: $GRAY-67;
+  margin: (40px) 0 (40px) 0;
+}
+.tasteAnalysis {
+  width: (600px);
+  flex-direction: column;
+  align-items: center;
+  &_wishList {
+    margin-top: (120px);
+    width: (400px);
+    flex-direction: column;
+    &_title {
+      color: $GRAY-40;
+      margin-bottom: (32px);
+      margin-left: (16px);
+    }
+    &_cart {
+      justify-content: space-between;
+      img {
+        width: (120px);
+        height: (176px);
+        border-radius: (15px);
+      }
+    }
+  }
+  &_emptyList {
+    margin-top: (120px);
+    width: (400px);
+    flex-direction: column;
+    &_title {
+      color: $GRAY-40;
+      margin-bottom: (32px);
+      margin-left: (16px);
+    }
+    &_btns {
+      justify-content: space-around;
+      &_best,
+      &_search {
+        width: (184px);
+        height: (64px);
+        border-radius: (12px);
+      }
+      &_best {
+        background-color: $WHITE;
+        color: $GRAY-40;
+        border: 1px solid $BLACK;
+      }
+      &_search {
+        background-color: $GRAY-40;
+        color: $WHITE;
+      }
+    }
+  }
+  &_charts {
+    width: (560px);
+    // flex-direction: row;
+    justify-content: space-between;
+    &_brand,
+    &_scent {
+      width: (264px);
+      height: (264px);
+      overflow: hidden;
+      border-radius: 70%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  &_recommend {
+    flex-direction: column;
+    align-items: center;
+    margin-top: (40px);
+    &_title1,
+    &_title2 {
+      color: $GRAY-40;
+    }
+    &_img {
+      margin-top: (32px);
+      width: (240px);
+      height: (352px);
+      overflow: hidden;
+      border-radius: (15px);
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &_noData {
+      margin-top: (32px);
+      width: (400px);
+      flex-direction: column;
+      &_title {
+        color: $GRAY-40;
+        margin-bottom: (32px);
+        margin-left: (16px);
+      }
+      &_btns {
+        justify-content: space-around;
+        &_info,
+        &_search {
+          width: (184px);
+          height: (64px);
+          border-radius: (12px);
+        }
+        &_info {
+          background-color: $WHITE;
+          color: $GRAY-40;
+          border: 1px solid $BLACK;
+        }
+        &_search {
+          background-color: $GRAY-40;
+          color: $WHITE;
+        }
+      }
+    }
+  }
+}
